@@ -15,6 +15,14 @@ GIT
       rails (~> 4.0)
       teaspoon (~> 0.7.9)
 
+GIT
+  remote: git://github.com/twbs/bootstrap-sass.git
+  revision: b1961847eda8adc591e8ec0d764fd958702b6d29
+  ref: b1961847eda8adc591e8ec0d764fd958702b6d29
+  specs:
+    bootstrap-sass (3.1.1.0)
+      sass (~> 3.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -140,6 +148,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass!
   coffee-rails (~> 4.0.0)
   ember-appkit-rails!
   jquery-rails

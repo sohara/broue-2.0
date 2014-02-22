@@ -43,3 +43,6 @@ gem 'ember-appkit-rails',
   github: 'dockyard/ember-appkit-rails',
   ref: '240184cb99b8152e66ad870e84bb495f18b29a45'
 
+gem 'bootstrap-sass',
+  github: 'twbs/bootstrap-sass',
+  ref: 'b1961847eda8adc591e8ec0d764fd958702b6d29'
