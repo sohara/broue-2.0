@@ -21,8 +21,14 @@
 //= require fake_xml_http_request
 //= require fakehr
 //= require httpRespond
+//= require_tree ./helpers
+
+document.write('<div id="ember-testing-container"><div id="ember-testing"></div></div>');
 
 Ember.testing = true;
+
+window.startApp          = require('helpers/start-app')['default'];
+window.isolatedContainer = require('helpers/isolated-container')['default'];
 
 function exists(selector) {
   return !!find(selector).length;
